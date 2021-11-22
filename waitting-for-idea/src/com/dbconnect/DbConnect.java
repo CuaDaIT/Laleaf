@@ -9,9 +9,9 @@ public class DbConnect {
 //    private static String USER_NAME = "sql6410345";
 //    private static String PASSWORD = "KWAE4GRBWX";
     
-    private static String DB_URL = "jdbc:mysql://mysql-30093-0.cloudclusters.net:30093/se2_database?useSSL=false";
-    private static String USER_NAME = "admin";
-    private static String PASSWORD = "trang1999";
+    private static String DB_URL = "jdbc:mysql://localhost:3306/laleaf?useSSL=false";
+    private static String USER_NAME = "root";
+    private static String PASSWORD = "root";
     public static Connection getConnection()  {
 		Connection conn = null;
 		try {

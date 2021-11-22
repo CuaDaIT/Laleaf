@@ -135,7 +135,7 @@ public class productDao {
 	}
 	
 	public  ArrayList<Product> getProductByName(String sname) {
-		 ArrayList<Product> p = null;
+		 ArrayList<Product> p = new ArrayList<Product>();
 		String sql = "SELECT * FROM product WHERE NAME="+"\""+sname+"\"";
 		try {
 			PreparedStatement ps = conn.prepareStatement(sql);
